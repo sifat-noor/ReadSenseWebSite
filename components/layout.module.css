@@ -1,0 +1,136 @@
+.container {
+    /* max-width: 36rem; */
+    padding: 0 1rem;
+    /* margin: 3rem auto 6rem; */
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .leftHeader {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    background-color: transparent;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .rightHeader {
+    display: flex;
+    flex-direction: column;
+    flex: 16;
+    background-color: transparent;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 2px;
+    /* border: 1px solid #D9D9D9; */
+    flex-wrap: wrap;
+    /* width: 100%; */
+    padding-right: 4rem;
+  }
+  
+  .backToHome {
+    margin: 3rem 0 0;
+  }
+
+ .toolBar {
+    background-color: transparent;
+    margin: .5rem;
+  }
+
+  .logoColor {
+    color: #735BF2;
+  }
+
+  .backText {
+    font-family: 'Nunito_Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #182531;
+    margin-left: -1rem;
+    margin-right: .8rem;
+  }
+
+  .logoHeader {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    margin-left: 1.2rem;
+    margin-top: .1rem;
+    margin-bottom: 0rem;
+  }
+
+  .smallBox {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* width: 60px; 
+    height: 40px;  */
+    background-color: white;
+    border-radius: 5px;
+    /* border: 1px solid #D9D9D9; */
+    /* margin: 1rem 1rem 1rem 1rem; */
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+
+  /* .smallBox:hover {
+    background-color: 'primary.main';
+    opacity: 0.5; 
+    box-shadow: 0 0 10px 2px #735BF2;
+    box-shadow: 0px 0px 8px 1px #182531;
+  } */
+
+  .largeBox {
+    display: flex;
+    flex: 8;
+    flex-direction: column;
+    /* width: 60px; */
+    height: 100px; 
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid hsl(0, 1%, 79%);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .fontSixeBox {
+    display: flex;
+    flex: .1;
+    flex-direction: row;
+    align-items: center;
+    /* width: 60px;
+    height: 40px; */
+    background-color: transparent;
+    border-radius: 2px;
+    border: 1px solid #D9D9D9;
+    /* margin: 1rem 1rem 1rem 1rem; */
+  }
+
+  /* .container {
+    max-width: 36rem;
+    padding: 0 1rem;
+    margin: 3rem auto 6rem;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+  
+  .HeaderLabel {
+    text-align: center;
+    font-family: 'Nunito_Sans', sans-serif;
+    font-size: 1rem;
+    color: #182531;
+    margin: 0rem;
+  } 

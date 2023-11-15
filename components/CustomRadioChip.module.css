@@ -1,0 +1,32 @@
+
+.chipOutlined {
+    background-color: white;
+    border-color: #735BF2;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5); */
+    font-family: Nunito_Sans, Sans-serif;
+    font-Weight: normal;
+    color: #735BF2;
+    font-size: 1rem;
+    line-height: 1.5;
+    /* width: 238px; */
+       
+}
+
+.chipOutlined:hover {
+    background-color: #FEF7FF;
+    border-color: #735BF2;
+    box-shadow: 0px 0px 5px 5px rgba(#735BF2);
+    text-decoration-color: #735BF2;
+  }
+
+.chipOutlinedActive {
+    background-color: #E8DEF9;
+    border-color: #735BF2;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.5); */
+    color: #735BF2;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+

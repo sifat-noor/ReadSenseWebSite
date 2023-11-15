@@ -1,0 +1,122 @@
+.container {
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+    /* justify-content: space-around;
+    align-items: center; */
+    height: 100vh;   
+    flex-wrap: wrap;
+    background-color: white;
+    /* margin: 16px; */
+  }
+  
+
+  .columnRightHeader{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 100vh;
+    margin-left: 10px;
+    margin-top: 8px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .columnRight{
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    height: 100vh;
+    background-Color: white;
+    margin-top: 8px;
+  }
+  
+  .columnRightInner{
+    flex: 1;
+    display: flex;
+    flex-Direction: column;
+    background-Color: white;
+    justify-Content: space-around;
+    align-Items: center;
+  }
+
+  .columnLeft{
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    height: 100vh;
+    background-color: white;
+    /* width: 50%; */
+  } 
+
+  .columnLeftUpper{
+    flex: 2;
+    display: flex;
+    flex-Direction: column;
+    background-Color: white;
+    justify-Content: flex-start;
+    /* max-width: 100%; */
+    flex-wrap: wrap;
+    /* align-Items: center; */
+    /* width: 80%; */
+  }
+
+  .columnLeftLower{
+    flex: .5;
+    display: flex;
+    flex-Direction: row;
+    background-Color: white;
+    justify-Content: space-around; 
+    align-Items: center;
+    /* width: 80%;
+    margin-top: 1rem;  */
+  }
+
+  .columnLeftUpperMiddle1{
+    flex: 1;
+    display: flex;
+    flex-Direction: row;
+    background-Color: white;
+    justify-Content: space-evenly;
+    align-Items: center;
+    margin-top: 1rem; 
+    flex-wrap: wrap;
+    /* width: 50%; */
+  }
+  .columnLeftUpperMiddle2{
+    flex: .5;
+    display: flex;
+    flex-Direction: row;
+    background-Color: white;
+    justify-Content: space-evenly;
+    align-Items: center;
+    /* width: 80%; */
+    margin-top: 1rem; 
+    /* margin-left: 1rem; */
+  }
+
+  .columnLeftUpperFewContent{
+    flex: 1;
+    display: flex;
+    flex-Direction: column;
+    background-Color: white;
+    justify-Content: flex-start;
+    /* max-width: 100%; */
+    /* flex-wrap: wrap; */
+    /* align-Items: center; */
+    /* width: 80%; */
+  }
+
+  .columnLeftUpperMiddleFewContent{
+    flex: 2;
+    display: flex;
+    flex-Direction: column;
+    background-Color: white;
+    justify-Content: flex-start;
+    align-Items: center;
+    margin-top: 1rem; 
+    flex-wrap: wrap;
+    /* width: 50%; */
+  }
+
+  

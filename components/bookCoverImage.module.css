@@ -1,0 +1,16 @@
+.imageOutlined {
+   border: 1px solid #735BF2;
+   border-radius: 2px;
+}
+
+.imageOutlinedHover {
+    border : 2px solid #735BF2;
+    /* box-shadow: 0px 0px 10px 2px rgba(#735BF2); */
+    border-radius: 8px;
+  }
+
+.imageOutlinedActive {
+    border-radius: 10px;
+    border: 4px solid #735BF2;
+    /* box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.5); */
+  }
