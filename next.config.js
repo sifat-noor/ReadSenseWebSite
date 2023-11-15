@@ -9,7 +9,8 @@ const nextConfig = {
         test: /\.node/,
         use: "raw-loader",
       });
-  return config;
+      return config;
     },
+    output: "standalone",
   };
   module.exports = nextConfig;
